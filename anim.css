@@ -1,0 +1,446 @@
+                                        /* HEADER */
+.slide_one .header{
+    transform: translate(-100px, 0px);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 2.5s;
+}
+.slide_one .header._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+                                        /* SOCIAL MEDIA */
+.slide_one .content .social_media{
+    transform: translate(0px, 100px);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 2.5s;
+}
+.slide_one .content .social_media._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+                                        /* TITLE */
+.slide_one .content .offer_content .title h1{
+    opacity: 0;
+    transition: 3s;
+}
+.slide_one .content .offer_content .title h1._active{
+    opacity: 1;
+}
+                                        /* SUBTITLE */
+.slide_one .content .offer_content .subtitle h3{
+    opacity: 0;
+    transition: 2s;
+    transition-delay: 1s;
+}
+.slide_one .content .offer_content .subtitle h3._active{
+    opacity: 1;
+}
+                                        /* BUTTON */
+.slide_one .content .offer_content .button{
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 2s;
+    animation-delay: 2s;
+}
+.slide_one .content .offer_content .button._active{
+    opacity: 1;
+}
+                                        /* SLIDE TWO */
+.slide_two .number_of_slide h1{
+    opacity: 0;
+}
+.slide_two .number_of_slide h1._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_two .header{
+    opacity: 0;
+}
+.slide_two .header._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_two .offer{
+    opacity: 0;
+}
+.slide_two .offer._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_two .main{
+    opacity: 0;
+}
+.slide_two .main._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_two .text .button{
+    opacity: 0;
+}
+.slide_two .text .button._active{
+    opacity: 1;
+}
+.slide_two .photo img{
+    opacity: 0;
+    transform: scale(0);
+    border-radius: 50%;
+}
+.slide_two .photo img._active{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1);
+    border-radius: 0%;
+}
+.slide_two .shape{
+    opacity: 0;
+    width: 100px;
+}
+.slide_two .shape._active{
+    opacity: 1;
+    transition: 1.5s;
+    width: 1000px;
+}
+.slide_two .shape_two{
+    opacity: 0;
+    width: 0px;
+}
+.slide_two .shape_two._active{
+    opacity: 1;
+    transition: 1s;
+    width: 432px;
+}
+                                        /* SLIDE THREE */
+.slide_three .number_of_slide h1{
+    opacity: 0;
+}
+.slide_three .number_of_slide h1._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_three .header{
+    opacity: 0;
+}
+.slide_three .header._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_three .offer{
+    opacity: 0;
+}
+.slide_three .offer._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_three .main{
+    opacity: 0;
+}
+.slide_three .main._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_three .text .button{
+    opacity: 0;
+}
+.slide_three .text .button._active{
+    opacity: 1;
+}
+.slide_three .photo img{
+    opacity: 0;
+    transform: scale(0);
+    border-radius: 50%;
+}
+.slide_three .photo img._active{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1);
+    border-radius: 0%;
+}
+.slide_three .shape{
+    opacity: 0;
+    width: 100px;
+}
+.slide_three .shape._active{
+    opacity: 1;
+    transition: 1.5s;
+    width: 1000px;
+}
+.slide_three .shape_two{
+    opacity: 0;
+    width: 0px;
+}
+.slide_three .shape_two._active{
+    opacity: 1;
+    transition: 1s;
+    width: 432px;
+}
+                                        /* SLIDE FOUR */
+.slide_four .number_of_slide h1{
+    opacity: 0;
+}
+.slide_four .number_of_slide h1._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_four .header{
+    opacity: 0;
+}
+.slide_four .header._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_four .offer{
+    opacity: 0;
+}
+.slide_four .offer._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_four .main{
+    opacity: 0;
+}
+.slide_four .main._active{
+    opacity: 1;
+    transition: 2s;
+}
+.slide_four .text .button{
+    opacity: 0;
+}
+.slide_four .text .button._active{
+    opacity: 1;
+}
+.slide_four .photo img{
+    opacity: 0;
+    transform: scale(0);
+    border-radius: 50%;
+}
+.slide_four .photo img._active{
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1);
+    border-radius: 0%;
+}
+.slide_four .shape{
+    opacity: 0;
+    width: 100px;
+}
+.slide_four .shape._active{
+    opacity: 1;
+    transition: 1.5s;
+    width: 1000px;
+}
+.slide_four .shape_two{
+    opacity: 0;
+    width: 0px;
+}
+.slide_four .shape_two._active{
+    opacity: 1;
+    transition: 1s;
+    width: 432px;
+}
+/* SLIDE FIVE */
+.slide_five .offer .offer_text h1{
+    opacity: 0;
+    transition: 2s;
+}
+.slide_five .offer .offer_text h1._active{
+    opacity: 1;
+}
+.slide_five .offer .offer_text a{
+    opacity: 0;
+    transition: 2s;
+}
+.slide_five .offer .offer_text a._active{
+    opacity: 1;
+}
+.slide_five .offer .text p{
+    transform: translate(50px);
+    transition: 2s;
+    opacity: 0;
+}
+.slide_five .offer .text p._active{
+    transform: translate(0px);
+    opacity: 1;
+}
+.slide_five .slider{
+    opacity: 0;
+    transform: scale(0);
+    transition: .9s;
+}
+.slide_five .slider._active{
+    opacity: 1;
+    transform: scale(1);
+}
+/* SLIDE SIX */
+.slide_six .open_text .heading{
+    opacity: 0;
+    transform: translate(0px, 100px);
+}
+.slide_six .open_text .heading._active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 2s;
+}
+.slide_six .open_text .text{
+    opacity: 0;
+    transform: translate(0px, 100px);
+}
+.slide_six .open_text .text._active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 2s;
+    transition-delay: 1s;
+}
+.slide_six .cards .customers img{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .customers img._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.6s;
+    opacity: 1;
+}
+.slide_six .cards .customers h1{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .customers h1._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.7s;
+    opacity: 1;
+}
+.slide_six .cards .customers h2{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .customers h2._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.8s;
+    opacity: 1;
+}
+.slide_six .cards .customers p{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .customers p._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.89s;
+    opacity: 1;
+}
+.slide_six .cards .tours img{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .tours img._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.6s;
+    opacity: 1;
+}
+.slide_six .cards .tours h1{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .tours h1._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.7s;
+    opacity: 1;
+}
+.slide_six .cards .tours h2{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .tours h2._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.8s;
+    opacity: 1;
+}
+.slide_six .cards .tours p{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .tours p._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.89s;
+    opacity: 1;
+}.slide_six .cards .countries img{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .countries img._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.6s;
+    opacity: 1;
+}
+.slide_six .cards .countries h1{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .countries h1._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.7s;
+    opacity: 1;
+}
+.slide_six .cards .countries h2{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .countries h2._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.8s;
+    opacity: 1;
+}
+.slide_six .cards .countries p{
+    transform: translate(0px, 50px);
+    opacity: 0;
+}
+.slide_six .cards .countries p._active{
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: 1.89s;
+    opacity: 1;
+}
+/* SLIDE SEVEN */
+.slide_seven .text h1{
+    opacity: 0;
+    transform: translate(0px, 50px);
+}
+.slide_seven .text h1._active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: .5s;
+}
+
+.slide_seven .text p{
+    opacity: 0;
+    transform: translate(0px, 50px);
+}
+.slide_seven .text p._active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: .7s;
+}
+
+.slide_seven .text a{
+    opacity: 0;
+    transform: translate(0px, 50px);
+}
+.slide_seven .text a._active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 1s;
+    transition-delay: .9s;
+}

@@ -1,0 +1,210 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px){
+    /* SLIDE ONE */
+    .slide_one .header .navigation h2{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    .slide_one .content .social_media._active{
+        max-width: 20px;
+    }
+    .slide_one .content .offer_content .subtitle h3._active{
+        font-size: 1rem;
+    }
+    .slide_one .content .offer_content h1{
+        font-size: 3.6rem;
+        line-height: 3.7rem;
+    }
+    .slide_one .content .offer_content .button a{
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    /* SLIDE TWO */
+    .slide_two{
+        padding: 50px 20px;
+    }
+    .slide_two .photo img{
+        width: 413px;
+        height: 634px;
+    }
+    .slide_two .photo{
+        padding: 93px 0px;
+    }
+    .slide_two .text{
+        padding: 93px 10px;
+        width: 50%;
+    }
+    .slide_two .offer{
+        font-size: 2.6rem;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+    .slide_two .main{
+        font-size: .9rem;
+        width: 90%;
+    }
+    .slide_two .text .button{
+        padding: 6px 10px;
+    }
+    .slide_two .text a{
+        font-size: .8rem;
+    }
+    .slide_two .header{
+        margin-left: 100px;
+    }
+    /* SLIDE THREE */
+    .slide_three{
+        padding: 50px 20px;
+    }
+    .slide_three .photo img{
+        width: 413px;
+        height: 634px;
+    }
+    .slide_three .photo{
+        padding: 93px 0px;
+    }
+    .slide_three .text{
+        padding: 93px 10px;
+        width: 50%;
+    }
+    .slide_three .offer{
+        font-size: 2.6rem;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+    .slide_three .main{
+        font-size: .9rem;
+        width: 90%;
+    }
+    .slide_three .text .button{
+        padding: 6px 10px;
+    }
+    .slide_three .text a{
+        font-size: .8rem;
+    }
+    .slide_three .header{
+        margin-right: 100px;
+    }
+    /* SLIDE FOUR */
+    .slide_four{
+        padding: 50px 20px;
+    }
+    .slide_four .photo img{
+        width: 413px;
+        height: 634px;
+    }
+    .slide_four .photo{
+        padding: 93px 0px;
+    }
+    .slide_four .text{
+        padding: 93px 10px;
+        width: 50%;
+    }
+    .slide_four .offer{
+        font-size: 2.6rem;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+    .slide_four .main{
+        font-size: .9rem;
+        width: 90%;
+    }
+    .slide_four .text .button{
+        padding: 6px 10px;
+    }
+    .slide_four .text a{
+        font-size: .8rem;
+    }
+    .slide_four .header{
+        margin-left: 100px;
+    }
+    /* SLIDE FIVE */
+    .slide_five {
+        padding: 50px 20px;
+    }
+    .slide_five .offer_text h1{
+        font-size: 2.6rem;
+    }
+    .slide_five .offer .text{
+        font-size: .9rem;
+    }
+    .slide_five .offer_text a{
+        padding: 7px 10px;
+        font-size: .9rem;
+    }
+    /* SLIDE SIX */
+    .slide_six {
+        padding: 50px 20px;
+    }
+    .slide_six .open_text .heading{
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+    .slide_six .open_text .text{
+        font-size: .9rem;
+        width: 80%;
+    }
+    .slide_six .cards .customers img{
+        width: 150px;
+    }
+    .slide_six .cards .customers h2{
+        font-size: 1.4rem;
+    }
+    .slide_six .cards .customers p{
+        font-size: .9rem;
+    }
+    .slide_six .cards .tours img{
+        width: 150px;
+    }
+    .slide_six .cards .tours h2{
+        font-size: 1.4rem;
+    }
+    .slide_six .cards .tours p{
+        font-size: .9rem;
+    }
+    .slide_six .cards .countries img{
+        width: 150px;
+    }
+    .slide_six .cards .countries h2{
+        font-size: 1.4rem;
+    }
+    .slide_six .cards .countries p{
+        font-size: .9rem;
+    }
+    .slide_six .open_text {
+        margin-bottom: 70px;
+    }
+    /* SLIDE SEVEN */
+    .slide_seven h1 {
+        font-size: 2.5rem;
+    }
+    .slide_seven p {
+        font-size: 1.1rem;
+    }
+    .slide_seven .text a {
+        padding: 8px 10px;
+        font-size: .9rem;
+    }
+    .slide_seven {
+        max-height: 300px;
+    }
+    .slide_seven .text {
+        margin-top: 50px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px){
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px){
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px){
+
+}

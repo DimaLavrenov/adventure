@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+                                        /* Slide One, MAIN */
+.slide_one{
+    min-height: 100vh;
+    display: flex;
+    background: url(./Photo/Background.png) no-repeat center fixed;
+    padding: 48px 80px;
+    max-width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Slide One, HEADER , POSITIONING*/
+.slide_one .header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.slide_one .header .navigation{
+    display: flex;
+    align-items: center;
+}
+.slide_one .header .navigation a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.slide_one .header .navigation a:last-child{
+    margin-right: 0px;
+}
+/* Slide One, CONTENT , POSITIONING*/
+.slide_one .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+}
+.slide_one .content .social_media{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.slide_one .content .offer_content .social_media a{
+    display: flex;
+    margin: 2px 0px;
+}
+.slide_one .content .social_media .follow{
+    writing-mode: vertical-lr;
+}
+.slide_one .content .offer_content{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+}
+.slide_one .content .offer_content .button{
+    margin-top: 20px;
+    align-self: center;
+}
+                                        /* SLIDE TWO, MAIN */
+.slide_two{
+    min-height: 100vh;
+    display: flex;
+    background-color: #111;
+    padding: 50px 230px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Slide Two, Number Of Slide AND Photo */
+.slide_two{
+    display: flex;
+    position: relative;
+    align-self: center;
+    width: 100%;
+    flex: 1;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+/* Slide Two, Number Of Slide */
+.slide_two .number_of_slide{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-self: flex-start;
+    color: white;
+}
+/* Slide Two, Photo */
+.slide_two .photo{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-self: flex-end;
+    z-index: 1;
+}
+.slide_two .photo img{
+    width: 513px;
+    height: 734px;
+}
+/* Slide Two, Text */
+.slide_two .text{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 48%;
+    height: 68%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.slide_two .main{
+    margin-top: 50px;
+}
+/* Slide Two, Shape */
+.slide_two .shape{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -400px;
+    top: -158px;
+}
+.slide_two .shape_two{
+    width: 432px;
+    height: 277px;
+    position: absolute;
+    transform: rotate(-33.7deg);
+    top: 824px;
+    right: -165px;
+}
+/* Slide Two, Button */
+.slide_two .text .button{
+    padding: 10px 15px;
+    margin-top: 50px;
+}
+.slide_two .text a{
+    text-decoration: none;
+}
+.slide_two .text .button{
+    display: flex;
+    justify-content: center;
+}
+.slide_two .text .button .bi{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+                                        /* SLIDE THREE, MAIN */
+.slide_three{
+    min-height: 100vh;
+    display: flex;
+    background-color: #111;
+    padding: 50px 230px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Slide Three, Number Of Slide AND Photo */
+.slide_three{
+    display: flex;
+    position: relative;
+    align-self: center;
+    width: 100%;
+    flex: 1;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+/* Slide Three, Number Of Slide */
+.slide_three .number_of_slide{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-self: flex-end;
+    color: white;
+}
+/* Slide Three, Photo */
+.slide_three .photo{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-self: flex-start;
+    z-index: 1;
+}
+.slide_three .photo img{
+    width: 513px;
+    height: 734px;
+}
+/* Slide Three, Text */
+.slide_three .text{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    width: 48%;
+    height: 68%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-top: 80px;
+}
+.slide_three .main{
+    margin-top: 50px;
+}
+/* Slide Three, Shape */
+.slide_three .shape{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -400px;
+    top: -158px;
+}
+.slide_three .shape_two{
+    width: 432px;
+    height: 277px;
+    position: absolute;
+    transform: rotate(33.7deg);
+    top: 824px;
+    left: -165px;
+}
+/* Slide Three, Button */
+.slide_three .text .button{
+    padding: 10px 15px;
+    margin-top: 50px;
+}
+.slide_three .text a{
+    text-decoration: none;
+}
+.slide_three .text .button{
+    display: flex;
+    justify-content: center;
+}
+.slide_three .text .button .bi{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+                                        /* SLIDE FOUR, MAIN */
+.slide_four{
+    min-height: 100vh;
+    display: flex;
+    background-color: #111;
+    padding: 50px 230px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Slide Four, Number Of Slide AND Photo */
+.slide_four{
+    display: flex;
+    position: relative;
+    align-self: center;
+    width: 100%;
+    flex: 1;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+/* Slide Four, Number Of Slide */
+.slide_four .number_of_slide{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-self: flex-start;
+    color: white;
+}
+/* Slide Four, Photo */
+.slide_four .photo{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-self: flex-end;
+    z-index: 1;
+}
+.slide_four .photo img{
+    width: 513px;
+    height: 734px;
+}
+/* Slide Four, Text */
+.slide_four .text{
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 48%;
+    height: 68%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.slide_four .main{
+    margin-top: 50px;
+}
+/* Slide Four, Shape */
+.slide_four .shape{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -400px;
+    top: -158px;
+}
+.slide_four .shape_two{
+    width: 432px;
+    height: 277px;
+    position: absolute;
+    transform: rotate(-33.7deg);
+    top: 824px;
+    right: -165px;
+}
+/* Slide Four, Button */
+.slide_four .text .button{
+    padding: 10px 15px;
+    margin-top: 50px;
+}
+.slide_four .text a{
+    text-decoration: none;
+}
+.slide_four .text .button{
+    display: flex;
+    justify-content: center;
+}
+.slide_four .text .button .bi{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+                                        /* SLIDE FIVE, MAIN */
+.slide_five{
+    min-height: 100vh;
+    display: flex;
+    background-color: #111;
+    padding: 99px 230px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.slide_five .offer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.slide_five .offer .offer_text{
+    text-align: left;
+}
+.slide_five .offer .text{
+    text-align: left;
+    max-width: 45%;
+    margin-top: 50px;
+}
+.slide_five .offer .text p{
+    margin-bottom: 10px;
+}
+.slide_five .offer .text p:last-child{
+    margin-bottom: 0px;
+}
+.slide_five .slider{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: auto;
+    margin-top: 100px;
+}
+.slide_five .slider_of_img{
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+.slide_five .slider_of_img img{
+    width: 300px;
+}
+.slide_five ul.slider_of_img{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.slide_five ul.slider_of_img li{
+    width: 150px;
+    overflow: hidden;
+    margin: 0px 15px;
+    cursor: pointer;
+    display: block;
+    box-shadow: 1px 3px 15px #7e807e;
+    transition: 1.5s;
+    border-radius: 10px;
+}
+.slide_five ul.slider_of_img li:hover{
+    width: 300px;
+    box-shadow: 1px 3px 15px purple;
+    transition: all 1s;
+}
+.slide_five ul.slider_of_img li:nth-child(3){
+    width: 300px;
+}
+.slide_five ul.slider_of_img:hover li:nth-child(3){
+    width: 150px;
+}
+.slide_five ul.slider_of_img li:nth-child(3):hover{
+    width: 300px;
+}
+                                        /* SLIDE SIX, MAIN */
+.slide_six{
+    min-height: 100vh;
+    display: flex;
+    background-color: #111;
+    padding: 99px 230px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.slide_six .open_text{
+    display: flex;
+    height: 300px;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.slide_six .open_text .heading{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.slide_six .open_text .text{
+    display: flex;
+    flex: 4;
+}
+.slide_six .cards{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.slide_six .customers{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    overflow: hidden;
+}
+.slide_six .cards .customers img{
+    width: 177px;
+    margin-bottom: 30px;
+}
+.slide_six .tours{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+}
+.slide_six .cards .tours img{
+    width: 177px;
+    margin-bottom: 30px;
+}
+.slide_six .countries{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+}
+.slide_six .cards .countries img{
+    width: 177px;
+    margin-bottom: 30px;
+}
+                                        /* SLIDE SEVEN */
+.slide_seven{
+    min-height: 30vh;
+    display: flex;
+    background: gold;
+    padding: 99px 230px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.slide_seven .text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 100px;
+}
+.slide_seven h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.slide_seven p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(219, 198, 170);
+}
+.slide_seven a{
+    padding: 10px 15px;
+    background: mediumslateblue;
+    align-self: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #5f005f;
+}
